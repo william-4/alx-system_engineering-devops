@@ -1,2 +1,4 @@
 # alx-system_engineering-devops
-shell permisions
+
+script 0 - switches user
+
