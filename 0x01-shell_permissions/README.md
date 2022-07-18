@@ -16,9 +16,9 @@
 7 - A script that adds execution permission to the owner, the group owner and the other users, to the file hello
 
 8 - A script that sets the permissions to the file hello as:
-      > Owner: no permission at all
-      > Group: no permissions at all
-      > Other users: all the permissions
+      - Owner: no permission at all
+      - Group: no permissions at all
+      - Other users: all the permissions
       
 9 - A script that sets the mode of the file hello to (-rwxr-x-wx)
 
