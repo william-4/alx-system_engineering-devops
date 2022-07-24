@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# display text infinitely with a sleep 2 in between each iteration
+
+trap "echo 'I am invincible!!!'" SIGTERM
+counter=1
+while [ $counter -le 1 ]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done

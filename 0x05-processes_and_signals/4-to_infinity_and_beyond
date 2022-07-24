@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Display text infinitely
+
+while true
+do
+    echo To infinity and beyond
+done
