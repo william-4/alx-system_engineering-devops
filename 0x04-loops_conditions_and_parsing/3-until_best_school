@@ -2,7 +2,8 @@
 # printss Best School 10 times
 
 COUNTER=0
-until [ "$COUNTER" -eq 10 ]; do
+until [ "$COUNTER" -eq 10 ]
+do
 	echo "Best School"
-	let COUNTER=COUNTER+1
+	(( COUNTER=COUNTER+1 ))
 done
