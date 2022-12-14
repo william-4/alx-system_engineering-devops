@@ -1,6 +1,6 @@
 # Postmortem
 
-![alt text]()
+![alt text](https://github.com/william-4/alx-system_engineering-devops/blob/main/0x19-postmortem/error.png)
 
 ### Issue Summary
 From 0314hrs to 1430hrs EAT, the Shwitter APIs, mainly profile and profile_list endpoints experienced unexplainable downtimes. Requests to our servers in Chan_tech data center resulted in 500 error response messages. The issue affected all requests to this data center. The root cause was determined to be a error in redirecting requests in the nginx configuration file that went unnoticed.
